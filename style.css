@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO */
+
+.logo {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: red;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 40vh;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url(https://images.unsplash.com/photo-1628432136678-43ff9be34064?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1926&q=80);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  background-position: bottom 1050px right -100px;
+}
+
+.hero-content {
+  color: white;
+}
+
+.hero-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 2rem;
+}
+
+.hero-watchlist {
+  background-color: rgb(167, 27, 27);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.searchbar {
+  margin: 0 1rem;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 94%;
+}
+
+form {
+  display: contents;
+}
+
+input[type="search"],
+.search-btn {
+  font-weight: 500;
+  color: #6b7280;
+  width: 400px;
+  border: none;
+  outline: 1px solid rgb(201, 201, 201);
+  background-color: white;
+  padding: 0.8rem 1rem;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.search-btn {
+  font-weight: 700;
+  width: 120px;
+  cursor: pointer;
+  float: right;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* MAIN */
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 6rem 4rem;
+}
+
+.movie-container {
+  margin: 0 auto;
+}
+
+.movie {
+  width: 860px;
+  display: flex;
+  padding: 2rem;
+}
+
+.movie-content {
+  padding: 1rem;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgb(201, 201, 201);
+}
+
+/* IMAGE */
+
+.movie-hero {
+  min-width: 150px;
+  max-width: 150px;
+}
+
+.movie-img {
+  border-radius: 6px;
+  width: 100%;
+}
+
+/* MOVIE CARDS */
+
+i {
+  padding-right: 0.5rem;
+}
+
+.watchlist-btn {
+  cursor: pointer;
+}
+
+.movie-description-text {
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.p-information {
+  margin-right: 1rem;
+}
+
+.rating {
+  margin-left: 1rem;
+}
+
+.title-rating,
+.rating,
+.information,
+.watchlist-btn {
+  display: flex;
+  align-items: center;
+}
+
+.information,
+.movie-description {
+  padding: 1rem 0;
+}
